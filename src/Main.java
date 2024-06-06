@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("Привет, наставник!:)");
         System.out.println("Task 1");
         String firstName = "Ivan";
@@ -10,7 +9,7 @@ public class Main {
         System.out.println("Ф. И. О. сотрудника — " + fullName);
         System.out.println("Task 2");
         System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName.toUpperCase());
-        System.out.println("Task 4");
+        System.out.println("Task 3");
         String fullNameForTask3 = "Иванов Семён Семёнович";
         String fullNameTrue = fullNameForTask3.replace("ё", "е");
         System.out.println("Данные Ф. И. О. сотрудника — " + fullNameTrue);
